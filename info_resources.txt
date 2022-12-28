@@ -1,0 +1,28 @@
+
+-variabled.tf
+입력변수
+-outputs.tf
+출력변수
+-main.tf
+리소스
+
+==================================
+seoul ami
+
+ 기본           : ami-035233c9da2fabf52
+ 우분투 22.04   : ami-0ab04b3ccbadfae1f
+ 우분투 18.04   : ami-0d19691dd2d866cb6
+
+ instance type : t2.micro
+
+===============================
+
+vpc-web : 10.1.0.0/16
+vpc-web-subnet1: 10.1.1.0/24
+vpc-web-subnet2: 10.1.2.0/24
+vpc-idc-main : 10.2.0.0/16
+vpc-idc-main-subnet1: 10.2.1.0/24
+vpc-idc-main-subnet2: 10.2.2.0/24 
+
+===============================
+
